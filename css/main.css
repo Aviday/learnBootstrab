@@ -1,0 +1,265 @@
+/*Spasiality*/
+
+div, form, input, a {
+    box-sizing: border-box;
+    }
+
+body{
+    color: #353435;
+    font-family:/*'Open Sans',*/Tahoma, sans-serif;
+    font-size: 20px;
+    max-width:100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.silver {
+    color: #353435;
+    }
+.white {
+    color: #fbfafa;
+}
+.button-ghost{
+    border: 1px  solid #353435;
+    font-weight: 600;
+    border-radius: 60px;
+    padding: 6px 22px;
+    font-size: 18px;
+    color: #353435;
+}
+
+.buy-button{
+    background-color: #0f0f0f;
+    color: white;
+    /*font-weight: 600;*/
+    font-size: 18px;
+    padding: 6px 27px;
+}
+
+
+.left{
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.right{
+    float: right;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+/*time 48:15*/
+
+
+
+
+/* head */
+#first{
+    background: #fbfafa;
+    /*padding-bottom: 55px;*/
+}
+.menu{
+
+}
+.header__logo{
+    /*margin-left: 13.33333333%;*/
+    margin-top: 22px;
+}
+.menu__li{
+margin-right: 40px;
+    float: left;
+    margin-top: 31px;
+}
+.menu__li:nth-child(5){
+    margin-right: 0px;
+}
+.menu__li a {
+    color: #353435;
+    padding: 7px 0px;
+    font-weight: 500;
+    /*text-decoration: none;*/
+}
+.menu__li a:hover{
+    border-bottom: 3px solid #353435;
+}
+.clearfix:after{
+    content: '';
+    display: table;
+    widows:100%;
+}
+.contact{
+    /*margin-top: 31px;*/
+}
+.contact__phone{
+    color: #353435;
+    float:right;
+    margin-top: 31px;
+}
+.contact__phone i{
+    color: #353435;
+    font-weight: 400;
+}
+.contact__phone span{
+    vertical-align: 3px;
+    font-family:'Open Sans',Tahoma, sans-serif;
+
+}
+.contact__button {
+    float:left;
+    margin-top: 26px;
+
+}
+header{
+    height: 98px;
+}
+#content{
+    margin-top: 20px;
+    padding-top: 35px;
+}
+
+.separator {
+    padding: 30px 0px;
+    margin: 0px;
+}
+.screen_after{
+    height: 600px;
+}
+.product{
+    /*display:inline-block;*/
+}
+.product div{
+    display:block;
+}
+.product__img {
+    height: 601px;
+    width: 60%;
+}
+.first_screen{
+    /*background-image: url("../img/iphone5s.png");*/
+    float: left;
+}
+
+.second_screen{
+    float: right;
+    background-repeat: no-repeat;
+
+
+    /*800x769*/
+}
+.second_screen img{
+    margin-left: 13%;
+}
+
+
+.third_screen{
+    float: left;
+    background-repeat: no-repeat;
+
+}
+.fourth_screen{
+    float: right;
+    background-repeat: no-repeat;
+
+    /*padding-left: 20px;*/
+}
+.fifth_screen{
+    float: left;
+    background-repeat: no-repeat;
+
+}
+
+.product__img img{
+    height: 100%;
+    width: auto;
+}
+.product__description{
+    position: relative;
+    text-align: center;
+    width: 40%;
+    padding-top: 140px;
+    /*margin-top: 150px;*/
+    /*padding-left: 50px;*/
+    /*padding-right: 50px;*/
+    /*padding-left: 2.5%;*/
+    /*padding-right: 5%;*/
+}
+.product__description p{
+width: 520px;
+
+}
+.product__description h2{
+width: 520px;
+    margin:0;
+}
+.product__description p{
+    /*text-align: center;*/
+}
+
+#content2 {
+    background-color: #fbfafa;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    padding-top: 35px;
+}
+.functions{
+    margin-top: 10px;
+    width: 520px;
+
+    /*text-align:center;*/
+}
+.functions p{
+    font-size: 14px;
+}
+.functions__label{
+    font-size:20px;
+    color: #bb7bb6;
+}
+
+.trigger__one{
+    float: left;
+    height: 100px;
+    width: 100px;
+    display:inline-block;
+    vertical-align: middle;
+}
+.trigger__two{
+    display: inline-block;
+    height: 100px;
+    vertical-align: middle;
+
+}
+.trigger__three{
+    float: right;
+    display: inline-block;
+    height: 100px;
+    vertical-align: middle;
+}
+.map{
+    /*height: 925px;*/
+    height: 18.8%;
+
+}
+.map img{
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
